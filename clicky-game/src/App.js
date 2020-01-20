@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Row, CardPanel, Col } from 'react-materialize';
-import Navbar from './Components/Navbar/Nav';
+import Nav from './Components/Navbar/Nav';
 import Game from './Components/Game';
-import Imgs from '../public/Imgs';
+import images from '../public';
+
 
 // Initialize App component state 
 class App extends Component {
@@ -22,7 +23,7 @@ random = (a, b) => Math.random() > .5 ? -1 : 1
 clickHandler = image => {
   if (this.state.clicked.indexOf(images) === -1) {
     let score = this.state.clicked.length + 1,
-    clicked = score === this.state.images.length ? [] : [...this.state.clicked, imageName]
+    clicked = score === this.state.images.length ? [] : [...this.state.clicked]
 
     this.setState({ 
       images: this.state.images.sort(this.random),
