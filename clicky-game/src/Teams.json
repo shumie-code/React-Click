@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Hawks",
+        "image": "../imgs/"
+    },
+    {
+        "id": 2,
+        "name": "Nets",
+        "image": "../imgs/"
+    },
+    {
+        "id": 3,
+        "name": "Celtics",
+        "image": "../imgs/"
+    },
+    {
+        "id": 4,
+        "name": "Lakers",
+        "image": "../imgs/"
+    },
+    {
+        "id": 5,
+        "name": "Nuggets",
+        "image": "../imgs/"
+    },
+    {
+        "id": 6,
+        "name": "Knicks",
+        "image": "../imgs/"
+    },
+    {
+        "id": 7,
+        "name": "Rockets",
+        "image": "../imgs/"
+    },
+    {
+        "id": 8,
+        "name": "Magic",
+        "image": "../imgs/"
+    },
+    {
+        "id": 9,
+        "name": "Spurs",
+        "image": "../imgs/"
+    },
+    {
+        "id": 10,
+        "name": "Bucks",
+        "image": "../imgs/"
+    },
+    {
+        "id": 11,
+        "name": "Warrios",
+        "image": "../imgs/"
+    },
+    {
+        "id": 12,
+        "name": "Raptors",
+        "image": "../imgs/"
+    }
+
+]
