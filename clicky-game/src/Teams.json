@@ -2,62 +2,62 @@
     {
         "id": 1,
         "name": "Hawks",
-        "image": "../imgs/"
+        "image": "../imgs/hawks.png"
     },
     {
         "id": 2,
         "name": "Nets",
-        "image": "../imgs/"
+        "image": "../imgs/nets.png"
     },
     {
         "id": 3,
         "name": "Celtics",
-        "image": "../imgs/"
+        "image": "../imgs/celtics.png"
     },
     {
         "id": 4,
         "name": "Lakers",
-        "image": "../imgs/"
+        "image": "../imgs/lakers.png"
     },
     {
         "id": 5,
         "name": "Nuggets",
-        "image": "../imgs/"
+        "image": "../imgs/nuggets.png"
     },
     {
         "id": 6,
         "name": "Knicks",
-        "image": "../imgs/"
+        "image": "../imgs/knicks.png"
     },
     {
         "id": 7,
         "name": "Rockets",
-        "image": "../imgs/"
+        "image": "../imgs/rockets.png"
     },
     {
         "id": 8,
         "name": "Magic",
-        "image": "../imgs/"
+        "image": "../imgs/magic.png"
     },
     {
         "id": 9,
         "name": "Spurs",
-        "image": "../imgs/"
+        "image": "../imgs/spurs.png"
     },
     {
         "id": 10,
         "name": "Bucks",
-        "image": "../imgs/"
+        "image": "../imgs/bucks.png"
     },
     {
         "id": 11,
         "name": "Warrios",
-        "image": "../imgs/"
+        "image": "../imgs/warriors.png"
     },
     {
         "id": 12,
         "name": "Raptors",
-        "image": "../imgs/"
+        "image": "../imgs/raptors.png"
     }
 
 ]
