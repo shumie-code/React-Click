@@ -8,3 +8,4 @@ const Game = props => (
     </CardPanel>
     </Col>
 )
+export default Game;
