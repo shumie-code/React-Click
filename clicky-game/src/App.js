@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, CardPanel, Col } from 'react-materialize';
-import Nav from './components/Nav/Nav';
+import Navbar from './components/Navbar/Nav';
 import Game from './Components/Game';
 import Imgs from '../public/Imgs';
 
@@ -65,3 +65,5 @@ render() {
   )
 }
 }
+
+export default App
