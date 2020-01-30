@@ -22,4 +22,9 @@ class App extends Component {
         this.shuffleLogos()
         this.checkGuess(name, this.updateTopScore)
     }
+
+    shuffleLogos = () => {
+        this.setState(this.state.logos = this.shuffleArray(this.state.logos))
+    }
+    
 }
