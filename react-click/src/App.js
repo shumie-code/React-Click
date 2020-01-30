@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GridMDC from "./components/GridMDC";
 import PaperMDC from "./components/PaperMDC";
-import TeamCard from "./components/CharCard";
+import TeamCard from "./components/TeamCard";
 import Score from "./components/Score";
 import NavBar from "./components/NavBar";
 import Alert from "./components/Alert";
