@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import GridMDC from "./components/GridMDC";
+import PaperMDC from "./components/PaperMDC";
+import TeamCard from "./components/CharCard";
+import Score from "./components/Score";
+import NavBar from "./components/NavBar";
+import Alert from "./components/Alert";
+import BottomNavMDC from "./components/BottomNavMDC";
+import nba from "./nba.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+    state = {
+        logos: logos,
+        pickedLogos: [],
+        topScore: 0,
+        alertMessage: ""
+    }
+    
 }
-
-export default App;
