@@ -60,5 +60,13 @@ class App extends Component {
         cb(newState)
     }
 
+    alertWinner = (newState) => {
+        if (newState.pickedLogos.length === 23) {
+            newState.alertMessage = "Winner, Winner!!!";
+            newState.pickedLogos = [];
+            this.setState(this.state = newState)
+        }
+    }
+
     
 }
