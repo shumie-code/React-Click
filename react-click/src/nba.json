@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "name": "Hawks",
+        "image": "../imgs/Hawks.png"
+    },
+    {
+        "id": 2,
+        "name": "Blazers",
+        "image": "../imgs/Blazers.png"
+    },
+    {
+        "id": 3,
+        "name": "Lakers",
+        "image": "../imgs/Lakers.png"
+    },
+    {
+        "id": 4,
+        "name": "Brooklyn",
+        "image": "../imgs/Brooklyn.png"
+    },
+    {
+        "id": 5,
+        "name": "Bulls",
+        "image": "../imgs/Bulls.png"
+    },
+    {
+        "id": 6,
+        "name": "Clippers",
+        "image": "../imgs/Clippers.png"
+    },
+    {
+        "id": 7,
+        "name": "Kings",
+        "image": "../imgs/Kings.png"
+    },
+    {
+        "id": 8,
+        "name": "Grizzlies",
+        "image": "../imgs/Grizzlies.png"
+    },
+    {
+        "id": 9,
+        "name": "Jazz",
+        "image": "../imgs/Jazz.png"
+    },
+    {
+        "id": 10,
+        "name": "Knicks",
+        "image": "../imgs/Knicks.png"
+    },
+    {
+        "id": 11,
+        "name": "Cavs",
+        "image": "../imgs/Cavs.png"
+    },
+    {
+        "id": 12,
+        "name": "Mavs",
+        "image": "../imgs/Mavs.png"
+    },
+    {
+        "id": 13,
+        "name": "Pistons",
+        "image": "../imgs/Pistons.png"
+    },
+    {
+        "id": 14,
+        "name": "Bucks",
+        "image": "../imgs/Bucks.png"
+    },
+    {
+        "id": 15,
+        "name": "Pacers",
+        "image": "../imgs/Pacers.png"
+    },
+    {
+        "id": 16,
+        "name": "Rockets",
+        "image": "../imgs/Rockets.png"
+    },
+    {
+        "id": 17,
+        "name": "Pelicans",
+        "image": "../imgs/Pelicans.png"
+    },
+    {
+        "id": 18,
+        "name": "Spurs",
+        "image": "../imgs/Spurs.png"
+    },
+    {
+        "id": 19,
+        "name": "Warriors",
+        "image": "../imgs/Warriors.png"
+    },
+    {
+        "id": 20,
+        "name": "Wizards",
+        "image": "../imgs/Wizards.png"
+    },
+    {
+        "id": 21,
+        "name": "Thunder",
+        "image": "../imgs/Thunder.png"
+    },
+    {
+        "id": 22,
+        "name": "Raptors",
+        "image": "../imgs/Raptors.png"
+    },
+    {
+        "id": 23,
+        "name": "Suns",
+        "image": "../imgs/Suns.png"
+    }
+    
+]
