@@ -11,7 +11,7 @@ import nba from "./nba.json";
 class App extends Component {
 
     state = {
-        logos: logos,
+        nba: nba,
         pickedLogos: [],
         topScore: 0,
         alertMessage: ""
@@ -19,12 +19,12 @@ class App extends Component {
 
     handlePicked = event => {
         const name = event.target.attributes.getNamedItem("name").value;
-        this.shuffleLogos()
+        this.shuffleNba()
         this.checkGuess(name, this.updateTopScore)
     }
 
-    shuffleLogos = () => {
-        this.setState(this.state.logos = this.shuffleArray(this.state.logos))
+    shuffleNba = () => {
+        this.setState(this.state.nba = this.shuffleArray(this.state.nba))
     }
 
     shuffleArray = (a) => {
