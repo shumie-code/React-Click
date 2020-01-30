@@ -37,5 +37,20 @@ class App extends Component {
         }
         return a;
     }
+
+    checkGuess = (name, cb) => {
+        const newState = { ...this.state };
+        if (newState.pickedLogos.includes(name)) {
+            newState.alertMessage = `Picked Already "${name.toUpperCase()}"!`
+            newState.pickedLogos = []
+            this.setState(this.state = newState)
+        } else {
+            newState.pickedLogos.push(name)
+            newState.alertMessage = `FANTASTIC!`
+            this.setState(this.state = newState)
+        }
+        cb(newState, this.alertWinner)
+    }
+
     
 }
