@@ -8,6 +8,7 @@ import Alert from "./components/Alert";
 import BottomNavMDC from "./components/BottomNavMDC";
 import nba from "./nba.json";
 
+
 class App extends Component {
 
     state = {
@@ -18,6 +19,7 @@ class App extends Component {
     }
 
     handlePicked = event => {
+        
         const name = event.target.attributes.getNamedItem("name").value;
         this.shuffleNba()
         this.checkGuess(name, this.updateTopScore)
